@@ -8,9 +8,7 @@ body {
     font-family: "Open sans",serif;
 }
 img{
-    margin-top: 30px;
-    margin-left: 40px;
-
+   margin-left: 50px;
 }
 .header {
     background-color: black;
@@ -29,12 +27,13 @@ img{
 .header ul li {
     padding: 10px 20px;
     position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .header ul li a {
     color: orange;
     text-decoration: none;
     font-size: 15px;
-    text-transform: uppercase;
 }
 .header ul li a:hover {
     color: orange;
@@ -65,4 +64,4 @@ img{
 }
 .fas {
     color: white;
-}    
+} 
